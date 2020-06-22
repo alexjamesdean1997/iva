@@ -3,6 +3,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: './src/css/main.css',
+  output: {
+    path: path.resolve('dist')
+  },
   mode: process.env.NODE_ENV,
   devServer: {
     contentBase: path.resolve('dist'),
@@ -15,17 +18,7 @@ module.exports = {
         use: [
           'style-loader',
           { loader: 'css-loader', options: { importLoaders: 1 } },
-          {
-            loader: 'postcss-loader',
-            options: {
-              ident: 'postcss',
-              plugins: [
-                require('tailwindcss'),
-                require('postcss-nested'),
-                require('autoprefixer')
-              ]
-            }
-          }
+          'postcss-loader'
         ]
       }
     ]
