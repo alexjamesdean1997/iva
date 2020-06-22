@@ -21,6 +21,7 @@ module.exports = {
               ident: 'postcss',
               plugins: [
                 require('tailwindcss'),
+                require('postcss-nested'),
                 require('autoprefixer')
               ]
             }
