@@ -17,19 +17,21 @@ module.exports = {
   variants: {},
   plugins: [
     plugin(function ({ addUtilities }) {
+      const container = {
+        width: '90%',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+      }
+
       const containers = {
         '.container': {
-          width: '90%',
+          ...container,
           maxWidth: '980px',
-          marginLeft: 'auto',
-          marginRight: 'auto'
         },
 
         '.container-lg': {
-          width: '90%',
+          ...container,
           maxWidth: '1280px',
-          marginLeft: 'auto',
-          marginRight: 'auto'
         }
       }
 
