@@ -1,6 +1,7 @@
-node_modules/
-
 dist/
+src/_includes/webpack.html
+
+node_modules/
 
 .idea/
 /workspace.xml
