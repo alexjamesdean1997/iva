@@ -6,7 +6,10 @@ module.exports = {
       colors: {
         black: '#000',
         white: '#fff',
-        gray: '#767676'
+        gray: {
+          default: '#767676',
+          light: '#f6f6f8'
+        }
       }
     },
     container: {

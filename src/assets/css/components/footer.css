@@ -1,9 +1,8 @@
 .main-footer {
   background-color: #282829;
-  color: white;
 }
 
 .sub-footer {
-  color: white;
+  @apply text-xs;
   background-color: #222223;
 }
