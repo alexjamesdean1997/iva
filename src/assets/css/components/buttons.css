@@ -1,0 +1,25 @@
+button{
+    text-transform: uppercase!important;
+    padding: 16px 32px!important;
+    letter-spacing: 1px;
+    font-weight: lighter;
+
+    &.btn-color{
+        color: white;
+        background: transparent linear-gradient(282deg, #6A82EC 0%, #74EBD5 100%) 0% 0% no-repeat padding-box;
+        box-shadow: -6px -6px 30px #FFFFFF;
+        border-radius: 5px;
+    }
+
+    &.btn-light{
+        background: transparent linear-gradient(282deg, #F2F3F6 0%, #E5E6EC 100%) 0% 0% no-repeat padding-box;
+        box-shadow: -6px -6px 30px #FFFFFF;
+    }
+
+    &.btn-dark{
+        color: white;
+        background: #282829 0% 0% no-repeat padding-box;
+        box-shadow: -6px -6px 30px #1C1C1C;
+    }
+
+}
