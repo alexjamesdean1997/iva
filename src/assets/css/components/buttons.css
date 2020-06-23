@@ -1,0 +1,22 @@
+.btn {
+  min-width: 8rem;
+  @apply py-3 px-6;
+  @apply uppercase;
+  @apply rounded;
+  @apply shadow-md;
+}
+
+.btn-primary {
+  @apply text-white;
+  background: transparent linear-gradient(282deg, #6a82ec 0%, #74ebd5 100%) 0 0 no-repeat padding-box;
+}
+
+.btn-light {
+  background: transparent linear-gradient(282deg, #f2f3f6 0%, #e5e6ec 100%) 0% 0% no-repeat padding-box;
+}
+
+.btn-dark {
+  color: white;
+  background: #282829 0% 0% no-repeat padding-box;
+  box-shadow: -6px -6px 30px #1c1c1c;
+}
