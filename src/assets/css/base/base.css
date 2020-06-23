@@ -1,0 +1,9 @@
+body {
+  @apply text-gray;
+  background-color: #f6f6f8;
+  @apply antialiased;
+}
+
+main {
+  min-height: 110vh;
+}

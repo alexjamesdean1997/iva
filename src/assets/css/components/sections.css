@@ -1,0 +1,10 @@
+.section-title {
+  @apply mb-2;
+  @apply font-bold text-3xl;
+  @apply uppercase;
+  @apply leading-tight;
+}
+
+.section-join-us {
+  background: linear-gradient(to bottom right, #e5e6eC, #f2f3f6);
+}
