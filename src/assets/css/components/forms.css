@@ -11,8 +11,7 @@
     @apply outline-none;
   }
 
-  &.input-dark {
-    background: #282829 0% 0% no-repeat padding-box;
-    box-shadow: -6px -6px 30px #1c1c1c;
+  &::placeholder {
+    @apply text-gray;
   }
 }
