@@ -2,8 +2,8 @@
 @import "base/base.css";
 
 @import "tailwindcss/components";
-@import "components/base.css";
 @import "components/buttons.css";
+@import "components/hero.css";
 @import "components/header.css";
 @import "components/footer.css";
 @import "components/typography.css";
