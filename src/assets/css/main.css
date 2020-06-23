@@ -1,5 +1,6 @@
 @import "tailwindcss/base";
 @import "base/base.css";
+@import "base/typography.css";
 
 @import "tailwindcss/components";
 @import "components/buttons.css";
@@ -8,6 +9,5 @@
 @import "components/footer.css";
 @import "components/forms.css";
 @import "components/sections.css";
-@import "components/typography.css";
 
 @import "tailwindcss/utilities";
