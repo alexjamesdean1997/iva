@@ -12,6 +12,7 @@
 }
 
 .btn-light {
+  @apply text-gray;
   background: transparent linear-gradient(282deg, #f2f3f6 0%, #e5e6ec 100%) 0% 0% no-repeat padding-box;
 }
 

@@ -1,5 +1,5 @@
 body {
-  color: theme('colors.gray');
+  @apply text-gray;
   background-color: #f6f6f8;
   @apply antialiased;
 }

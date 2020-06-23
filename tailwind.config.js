@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
   theme: {
     extend: {
@@ -13,5 +15,28 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: []
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      const containers = {
+        '.container': {
+          width: '90%',
+          maxWidth: '980px',
+          marginLeft: 'auto',
+          marginRight: 'auto'
+        },
+
+        '.container-lg': {
+          width: '90%',
+          maxWidth: '1280px',
+          marginLeft: 'auto',
+          marginRight: 'auto'
+        }
+      }
+
+      addUtilities(containers, ['responsive'])
+    })
+  ],
+  corePlugins: {
+    container: false
+  }
 }
