@@ -1,0 +1,14 @@
+input{
+    padding: 16px 32px!important;
+    letter-spacing: 1px;
+    font-weight: lighter;
+
+    &.input-dark{
+        background: #282829 0% 0% no-repeat padding-box;
+        box-shadow: -6px -6px 30px #1C1C1C;
+    }
+
+    &.input-light{
+
+    }
+}

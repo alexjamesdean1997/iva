@@ -4,5 +4,8 @@
 @import "components/base.css";
 @import "components/header.css";
 @import "components/footer.css";
+@import "components/typography.css";
+@import "components/buttons.css";
+@import "components/form.css";
 
 @import "tailwindcss/utilities";
