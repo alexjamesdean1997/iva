@@ -2,6 +2,7 @@ body {
   font-family: Modernist, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
   @apply text-gray;
   background-color: #f6f6f8;
+  overflow-x: hidden;
   @apply antialiased;
 }
 
