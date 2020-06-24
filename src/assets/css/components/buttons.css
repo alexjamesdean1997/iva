@@ -4,21 +4,27 @@
   @apply uppercase;
   @apply rounded;
   @apply shadow-md;
+  transition: box-shadow .2s;
 
-  &.btn-primary {
-    @apply text-white;
-    background: transparent linear-gradient(282deg, #6a82ec 0%, #74ebd5 100%) 0 0 no-repeat padding-box;
+  &:hover {
+    @apply shadow-lg;
   }
+}
 
-  &.btn-light {
-    @apply text-gray;
-    background: transparent linear-gradient(282deg, #f2f3f6 0%, #e5e6ec 100%) 0% 0% no-repeat padding-box;
-  }
+.btn-primary {
+  @apply text-white;
+  background: transparent linear-gradient(282deg, #6a82ec 0%, #74ebd5 100%) 0 0 no-repeat padding-box;
+}
 
-  &.btn-dark {
-    color: white;
-    background: #282829 0% 0% no-repeat padding-box;
-    box-shadow: -6px -6px 30px #1c1c1c;
-  }
+.btn-light {
+  @apply text-gray;
+  background: transparent linear-gradient(282deg, #f2f3f6 0%, #e5e6ec 100%) 0% 0% no-repeat padding-box;
+}
 
+.btn-dark {
+  @apply text-white;
+  background-color: #282829;
+  box-shadow: 0 4px 6px -1px rgba(150, 150, 150, 0.1),
+  0 2px 4px -1px rgba(150, 150, 150, 0.06),
+  -4px -4px 6px -1px rgba(0, 0, 0, 0.1);
 }

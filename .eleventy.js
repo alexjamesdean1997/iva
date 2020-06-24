@@ -6,6 +6,7 @@ module.exports = function (config) {
   // Pass-through files
   // config.addPassthroughCopy('src/css')
   config.addPassthroughCopy('src/images')
+  config.addPassthroughCopy('src/assets/fonts')
 
   return {
     templateFormats: ['html'],

@@ -1,27 +1,33 @@
-<footer>
+<footer class="text-white">
   <div class="main-footer pt-8">
     <div class="container-lg flex justify-between items-center pb-16">
       <nav>
-        <ul class="flex items-center">
-          <li class="pr-6">
-            <a href="#">IVA</a>
+        <ul class="flex items-center space-x-6">
+          <li>
+            <a aria-label="IVA" href="/">
+              <img
+                alt="IVA"
+                class="w-12"
+                src="/images/iva_logo_white.svg"
+              >
+            </a>
           </li>
-          <li class="pr-6">
+          <li>
             <a href="#">Product</a>
           </li>
-          <li class="pr-6">
+          <li>
             <a href="#">Pricing</a>
           </li>
-          <li class="pr-6">
+          <li>
             <a href="#">About us</a>
           </li>
-          <li class="pr-6">
+          <li>
             <a href="#">Contact</a>
           </li>
-          <li class="pr-6">
+          <li>
             <a href="#">Login</a>
           </li>
-          <li class="pr-6">
+          <li>
             <a href="#">Sign up</a>
           </li>
         </ul>
@@ -40,16 +46,25 @@
       </ul>
     </div>
 
-    <div class="container flex pb-6 justify-between">
-      <form class="flex items-end w-1/2" action="">
+    <div class="container-lg flex pb-6 justify-between">
+      <form class="flex items-end w-1/2">
         <div class="flex flex-col">
           <label for="newsletter" class="pb-2">Newsletter</label>
-          <input id="newsletter" name="newsletter" type="text" placeholder="Email">
+          <input
+            id="newsletter"
+            class="input bg-gray-light py-2"
+            name="newsletter"
+            placeholder="Email"
+            type="text"
+          >
         </div>
-        <button class="pl-4" type="submit">Sign up</button>
+        <button
+          class="btn btn-dark py-2 ml-4"
+          type="submit">Sign up
+        </button>
       </form>
       <div class="w-1/3">
-        <p>
+        <p class="text-gray">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
@@ -58,7 +73,7 @@
 
   <div class="sub-footer pt-4 pb-4">
     <div class="container-lg flex justify-between items-center">
-      <div>© 2020 Iva all rights reserved</div>
+      <div>© 2020 IVA All rights reserved.</div>
       <div class="flex">
         <a href="#">Privacy Policy</a>
         <a class="pl-6" href="#">Terms</a>
