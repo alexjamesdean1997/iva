@@ -1,10 +1,10 @@
 {
   "name": "iva",
   "scripts": {
-    "build": "webpack && eleventy",
+    "build": "webpack --env.NODE_ENV=production && eleventy",
     "dev": "npm run dev:eleventy & npm run dev:webpack",
     "dev:eleventy": "eleventy --serve --port=8000",
-    "dev:webpack": "webpack",
+    "dev:webpack": "webpack --env.NODE_ENV=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
