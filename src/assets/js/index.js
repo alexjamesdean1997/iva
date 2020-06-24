@@ -23,7 +23,7 @@ $(document).ready(function(){
 function scrollVideo(video, difference) {
 
   var videoLength = video.duration;
-  video.currentTime = (difference / ($(document).height() - $(window).height())) * videoLength;
+  video.currentTime = (difference / ($(document).height() - $(window).height())) * videoLength * 3;
 
 }
 
