@@ -4,6 +4,11 @@
   @apply uppercase;
   @apply rounded;
   @apply shadow-md;
+  transition: box-shadow .2s;
+
+  &:hover {
+    @apply shadow-lg;
+  }
 }
 
 .btn-primary {
@@ -17,7 +22,9 @@
 }
 
 .btn-dark {
-  color: white;
-  background: #282829 0% 0% no-repeat padding-box;
-  box-shadow: -6px -6px 30px #1c1c1c;
+  @apply text-white;
+  background-color: #282829;
+  box-shadow: 0 4px 6px -1px rgba(150, 150, 150, 0.1),
+  0 2px 4px -1px rgba(150, 150, 150, 0.06),
+  -4px -4px 6px -1px rgba(0, 0, 0, 0.1);
 }
