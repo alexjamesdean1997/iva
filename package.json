@@ -1,15 +1,16 @@
 {
   "name": "iva",
   "scripts": {
-    "build": "webpack && eleventy",
+    "build": "webpack --env.NODE_ENV=production && eleventy",
     "dev": "npm run dev:eleventy & npm run dev:webpack",
     "dev:eleventy": "eleventy --serve --port=8000",
-    "dev:webpack": "webpack",
+    "dev:webpack": "webpack --env.NODE_ENV=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
     "clean-webpack-plugin": "^3.0.0",
+    "jquery": "^3.5.1",
     "scrollmagic": "^2.0.7",
     "tailwindcss": "^1.4.6"
   },
