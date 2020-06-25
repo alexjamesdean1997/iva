@@ -57,7 +57,8 @@
   }
 }
 
-.demande, .infographiste {
+.demande,
+.infographiste {
   .video {
     height: 500px;
     object-fit: cover;
