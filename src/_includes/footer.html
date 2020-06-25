@@ -1,9 +1,9 @@
 <footer class="text-white">
   <div class="main-footer pt-8">
-    <div class="container-lg flex justify-between items-center pb-16">
+    <div class="container-lg flex justify-between md:items-center pb-16">
       <nav>
-        <ul class="flex items-center space-x-6">
-          <li>
+        <ul class="flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0 md:space-x-6">
+          <li class="mb-2">
             <a aria-label="IVA" href="/">
               <img
                 alt="IVA"
@@ -46,8 +46,8 @@
       </ul>
     </div>
 
-    <div class="container-lg flex pb-6 justify-between">
-      <form class="flex items-end w-1/2">
+    <div class="container-lg flex flex-col md:flex-row md:items-end md:justify-between pb-6">
+      <form class="flex items-end pb-6 md:pb-0">
         <div class="flex flex-col">
           <label for="newsletter" class="pb-2">Newsletter</label>
           <input
@@ -63,9 +63,10 @@
           type="submit">Sign up
         </button>
       </form>
-      <div class="w-1/3">
-        <p class="text-gray">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+      <div>
+        <p class="footer-text">
+          IVA est une marque déposée de la société <a href="https://hilo3d.com/">HILO</a>.
         </p>
       </div>
     </div>
@@ -73,10 +74,11 @@
 
   <div class="sub-footer pt-4 pb-4">
     <div class="container-lg flex justify-between items-center">
-      <div>© 2020 IVA All rights reserved.</div>
-      <div class="flex">
+      <div>&copy; 2020 IVA All rights reserved.</div>
+
+      <div class="flex space-x-4">
         <a href="#">Privacy Policy</a>
-        <a class="pl-6" href="#">Terms</a>
+        <a href="#">Terms</a>
       </div>
     </div>
   </div>
