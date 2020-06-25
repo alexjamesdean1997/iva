@@ -6,3 +6,15 @@
   @apply text-xs;
   background-color: #222223;
 }
+
+.footer-text {
+  @apply text-gray;
+
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      @apply text-white;
+    }
+  }
+}
