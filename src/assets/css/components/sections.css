@@ -3,6 +3,14 @@
   min-height: 600px;
 }
 
+.section-inner {
+  @apply container;
+
+  @screen 2xl {
+    @apply container-lg;
+  }
+}
+
 .section-title {
   @apply mb-6;
   @apply font-bold text-3xl;
