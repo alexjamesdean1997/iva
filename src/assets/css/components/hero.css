@@ -3,7 +3,23 @@
   min-height: 600px;
 
   .hero-title {
+    @apply mb-12;
+    @apply text-center;
+    @apply leading-tight;
     opacity: 0;
+  }
+
+  .hero-description {
+    @apply mb-8;
+    @apply max-w-md;
+    @apply text-lg;
+    @apply text-center;
+
+    @screen 2xl {
+      @apply mb-12;
+      @apply max-w-4xl;
+      @apply text-3xl;
+    }
   }
 
   img {

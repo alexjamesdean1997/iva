@@ -39,6 +39,11 @@ module.exports = {
         '.container-lg': {
           ...container,
           maxWidth: '1280px',
+        },
+
+        '.container-xl': {
+          ...container,
+          maxWidth: '1920px',
         }
       }
 

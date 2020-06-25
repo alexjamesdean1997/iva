@@ -1,6 +1,13 @@
 .section {
-  @apply py-32;
-  min-height: 600px;
+  @apply py-24;
+
+  @screen 2xl {
+    @apply py-32;
+
+    p {
+      @apply text-xl;
+    }
+  }
 }
 
 .section-inner {
@@ -9,22 +16,26 @@
   @screen 2xl {
     @apply container-lg;
   }
+
+  @screen 3xl {
+    @apply container-xl;
+  }
 }
 
 .section-title {
-  @apply mb-6;
+  @apply mb-4;
   @apply font-bold text-3xl;
   @apply uppercase;
   @apply leading-tight;
+
+  @screen 2xl {
+    @apply mb-6;
+    @apply text-6xl;
+  }
 }
 
-.section-join-us {
+.join-us {
   background: linear-gradient(to bottom right, #e5e6ec, #f2f3f6);
-
-  img {
-    max-width: 240px;
-    margin: auto;
-  }
 }
 
 .besoin {
