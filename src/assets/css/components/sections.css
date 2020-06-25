@@ -11,19 +11,18 @@
 }
 
 .section-join-us {
-  background: linear-gradient(to bottom right, #e5e6eC, #f2f3f6);
+  background: linear-gradient(to bottom right, #e5e6ec, #f2f3f6);
 
-  img{
+  img {
     max-width: 240px;
     margin: auto;
   }
 }
 
-.besoin{
+.besoin {
+  .image-container {
 
-  .image-container{
-
-    img{
+    img {
       max-height: 580px;
       object-fit: contain;
       margin: auto;
@@ -31,21 +30,20 @@
   }
 }
 
-.demande, .infographiste{
-
-  .video{
+.demande, .infographiste {
+  .video {
     height: 500px;
     object-fit: cover;
   }
 }
 
-.livrable{
-  .video{
+.livrable {
+  .video {
     height: 700px;
     object-fit: cover;
   }
 }
 
-.situation{
-
+.video {
+  pointer-events: none;
 }
