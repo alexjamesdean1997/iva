@@ -4,7 +4,7 @@
 }
 
 .section-title {
-  @apply mb-2;
+  @apply mb-6;
   @apply font-bold text-3xl;
   @apply uppercase;
   @apply leading-tight;
@@ -12,4 +12,40 @@
 
 .section-join-us {
   background: linear-gradient(to bottom right, #e5e6eC, #f2f3f6);
+
+  img{
+    max-width: 240px;
+    margin: auto;
+  }
+}
+
+.besoin{
+
+  .image-container{
+
+    img{
+      max-height: 580px;
+      object-fit: contain;
+      margin: auto;
+    }
+  }
+}
+
+.demande, .infographiste{
+
+  .video{
+    height: 500px;
+    object-fit: cover;
+  }
+}
+
+.livrable{
+  .video{
+    height: 700px;
+    object-fit: cover;
+  }
+}
+
+.situation{
+
 }
