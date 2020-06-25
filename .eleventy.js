@@ -4,9 +4,8 @@ module.exports = function (config) {
   config.setUseGitIgnore(false);
 
   // Pass-through files
-  // config.addPassthroughCopy('src/css')
-  config.addPassthroughCopy('src/images')
-  config.addPassthroughCopy('src/videos')
+  config.addPassthroughCopy('src/assets/images/*')
+  config.addPassthroughCopy('src/assets/videos/*')
   config.addPassthroughCopy('src/assets/fonts')
 
   return {

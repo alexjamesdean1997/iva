@@ -17,6 +17,7 @@ module.exports = env => {
       publicPath: '/assets/'
     },
     plugins: [
+      new CleanWebpackPlugin(),
       new MiniCssExtractPlugin({
         filename: '[name].css'
       }),
