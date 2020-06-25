@@ -18,7 +18,7 @@
     @screen 2xl {
       @apply mb-12;
       @apply max-w-4xl;
-      @apply text-3xl;
+      @apply text-4xl;
     }
   }
 

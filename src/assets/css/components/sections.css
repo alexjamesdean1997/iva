@@ -3,9 +3,14 @@
 
   @screen 2xl {
     @apply py-32;
+    @apply text-3xl;
+  }
 
-    p {
-      @apply text-xl;
+  p {
+    @apply max-w-md;
+
+    @screen 2xl {
+      @apply max-w-xl;
     }
   }
 }
@@ -40,11 +45,14 @@
 
 .besoin {
   .image-container {
-
     img {
-      max-height: 580px;
+      max-height: 480px;
       object-fit: contain;
       margin: auto;
+
+      @screen 2xl {
+        max-height: 840px;
+      }
     }
   }
 }
